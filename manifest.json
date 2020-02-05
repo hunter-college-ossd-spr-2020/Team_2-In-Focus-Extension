@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "In Focus",
+  "version": "1.0",
+
+  "description": "Blurs all images on a web page, so that you can focus on your reading!",
+
+  "icons": {
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*"],
+      "js": ["focus.js"]
+    }
+  ]
+
+}
